@@ -1,0 +1,82 @@
+.body {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: $width;
+    height: 200vh;
+    margin: 0 auto;
+
+    @include media ($md) {
+        padding-left: $md-padding;
+        padding-right: $md-padding;
+    }
+
+    @include media ($lg) {
+        padding-left: $lg-padding;
+        padding-right: $lg-padding;
+    }
+}
+
+.h4 {
+    font-family: $font-primary;
+    font-size: $font-size-default;
+    font-weight: 400;
+    letter-spacing: 0.5em;
+    line-height: 150%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+    @include media ($md) {
+        padding-bottom: 68px;
+    }
+
+    @include media ($lg) {
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+
+}
+
+.h1 {
+    height: 40px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-family: $font-secondary;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0.05em;
+
+    @include media ($md) {
+        font-size: 33px;
+        padding-bottom: 50px;
+        height: 40px;
+    }
+
+    @include media ($lg) {
+        height: 50px;
+        padding-bottom: 70px;
+        font-size: 48px;
+        line-height: 63px;
+    }
+}
+
+.h3 {
+    font-family: $font-secondary;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 166px;
+    letter-spacing: 0.1em;
+    line-height: 50px;
+    padding-bottom: 40px;
+
+    @include media ($md) {
+        font-size: 33px;
+        padding-bottom: 50px;
+    }
+
+    @include media ($lg) {
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: 0.05em;
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,27 @@
+/********* Colors ********/
+$black-default:    #000000;
+$secondary-color:  #565656;
+$background-color: #E5E5E5;
+$footer-bg-color:  #f4f4f4;
+
+/******** Fonts ********/
+$font-primary: 'lato', sans-serif;
+$font-secondary: 'red hat display', sans-serif;
+$font-size-default: 16px;
+
+/******** Widths ********/
+$width: 1440px;
+$content-wigth: 1200px;
+
+/******** Breakpoints ********/
+$lg: 1440px;
+$md: 768px;
+$md-max: $lg -1;
+$sm: 320px;
+$sm-max: $md -1;
+
+/******** Padding ********/
+$sm-padding: 10px;
+$md-padding: 35px;
+$lg-padding: 135px;
+

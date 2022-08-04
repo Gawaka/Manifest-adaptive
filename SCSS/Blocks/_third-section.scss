@@ -1,0 +1,46 @@
+.third-section__bg {
+    background-image: url(../../images/pillar-mobile.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    max-width: 100%;
+    height: 300px;
+
+    @include media ($md) {
+        max-width: 100%;
+        height: 380px;
+        background-image: url(../../images/pillar-tablet.jpg);
+    }
+
+    @include media ($lg) {
+        background-image: url(../../images/pillar-desctop.jpg);
+        max-width: 100%;
+        height: 500px;
+    }
+}
+
+.third-section__description {
+    color: $secondary-color;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    width: 100%;
+    max-width: 300px;
+    font-family: $font-primary;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.06em;
+
+    @include media ($md) {
+        font-size: 19px;
+        padding-bottom: 70px;
+        max-width: 100%;
+    }
+
+    @include media ($lg) {
+        font-size: 19px;
+        padding-bottom: 90px;
+        width: 1170px;
+        letter-spacing: 0.05em;
+    }
+}

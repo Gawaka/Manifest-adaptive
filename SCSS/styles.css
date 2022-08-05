@@ -696,6 +696,7 @@ h1 {
     padding-bottom: 70px;
     font-size: 48px;
     line-height: 63px;
+    width: 100%;
   }
 }
 
@@ -721,4 +722,9 @@ h1 {
     letter-spacing: 0.05em;
     padding-bottom: 50px;
   }
+}
+
+.svg__fill:hover {
+  transition: 0.5s ease-in-out;
+  fill: #1DA1F2;
 }/*# sourceMappingURL=styles.css.map */
